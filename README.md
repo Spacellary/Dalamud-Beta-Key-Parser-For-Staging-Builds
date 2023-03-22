@@ -16,4 +16,4 @@ Official documentation on how to use the Beta Key can be found <a href="https://
 
 ### Preview:
 ![WindowsTerminal_Owm8p37yRX](https://user-images.githubusercontent.com/39604793/226851797-94ac6563-f9f1-45b7-a15e-d12ac96f0535.png)
-###### *Yes. It is that simple, not even a colored output.*
+###### *Yes. It is that simple, not even a colored output. Key was blanked for screenshot purposes.*
