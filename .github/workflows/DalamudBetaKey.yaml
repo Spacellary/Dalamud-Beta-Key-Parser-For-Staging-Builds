@@ -57,11 +57,11 @@ jobs:
     - name: Publish
       run: dotnet publish --configuration Release --runtime win-x64 --output publish -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:SelfContained=true
 
-    - name: Get number of commits
-      id: get_commits
+    - name: Get timestamp
+      id: get_timestamp
       run: |
-        COMMITS=$(git rev-list --count HEAD)
-        echo "::set-output name=commits::$COMMITS"
+        TIMESTAMP=$(date +%s)
+        echo "::set-output name=timestamp::$TIMESTAMP"
 
     - name: Create Release
       id: create_release
@@ -69,8 +69,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ steps.get_commits.outputs.commits }}
-        release_name: Release ${{ steps.get_commits.outputs.commits }}
+        tag_name: ${{ steps.get_timestamp.outputs.timestamp }}
+        release_name: Release ${{ steps.get_timestamp.outputs.timestamp }}
         draft: false
         prerelease: false
 
