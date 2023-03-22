@@ -2,7 +2,7 @@
 
 This simple console app/script wil parse the latest Dalamud Staging key to enable Beta access, and ask if the user wants to open their dalamudConfig.json file. This is so the user can manually make the necessary changes, this tool will **not** automatically enable beta access, for that check the Dalamud documentation and follow their instructions.
 
-Official docummentation on how to use the Beta Key can be found <a href="https://goatcorp.github.io/faq/dalamud_troubleshooting.html#:~:text=Go%20to%20%25AppData%25%5CXIVLauncher,quotes)%20to%20disable%20Dalamud%20Staging.">here</a>.
+Official documentation on how to use the Beta Key can be found <a href="https://goatcorp.github.io/faq/dalamud_troubleshooting.html#:~:text=Go%20to%20%25AppData%25%5CXIVLauncher,quotes)%20to%20disable%20Dalamud%20Staging.">here</a>.
 
 
 
