@@ -7,7 +7,7 @@ Official documentation on how to use the Beta Key can be found <a href="https://
 
 
 
-###### This application is very simple and was intended for Windows only.
+###### This application is very simple and rudimentary, it was intended to be used in Windows only.
 ##### Please use it responsibly. <br> <br>
 
 ### Preview:
