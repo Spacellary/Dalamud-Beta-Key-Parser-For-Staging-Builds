@@ -1,4 +1,4 @@
-### DalamudBetaKeyParser
+### About this Dalamud Staging and Beta information parsing helper utility:
 
 This simple console app/script wil parse the latest Dalamud Staging key necessary to enable Beta access, and afterwards ask if the user wants to open their dalamudConfig.json file with a simple **y/N** prompt. This is so the user can manually make the necessary changes, this tool will **not** automatically enable beta access in any way, that still having to be done by any would be user at their own risk and responsability, on how to do that check the Dalamud documentation and follow their instructions.
 
