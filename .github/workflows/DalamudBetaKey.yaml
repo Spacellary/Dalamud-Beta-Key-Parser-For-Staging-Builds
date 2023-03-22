@@ -57,14 +57,20 @@ jobs:
     - name: Publish
       run: dotnet publish --configuration Release --runtime win-x64 --output publish
 
+    - name: Get number of commits
+      id: get_commits
+      run: |
+        COMMITS=$(git rev-list --count HEAD)
+        echo "::set-output name=commits::$COMMITS"
+
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
+        tag_name: ${{ steps.get_commits.outputs.commits }}
+        release_name: Release ${{ steps.get_commits.outputs.commits }}
         draft: false
         prerelease: false
 
