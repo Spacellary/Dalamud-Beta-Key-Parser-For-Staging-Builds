@@ -55,7 +55,7 @@ jobs:
       run: dotnet test
 
     - name: Publish
-      run: dotnet publish --configuration Release --runtime win-x64 --output publish
+      run: dotnet publish --configuration Release --runtime win-x64 --output publish -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:SelfContained=true
 
     - name: Get number of commits
       id: get_commits
