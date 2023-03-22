@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageIcon>logo128.png</PackageIcon>
-    <ApplicationIcon>youricon.ico</ApplicationIcon>
+    <ApplicationIcon>logo128.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
