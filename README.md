@@ -8,7 +8,11 @@ Official documentation on how to use the Beta Key can be found <a href="https://
 
 
 ###### This application is very simple and rudimentary, it was intended to be used in Windows only.
+
+##### Dalamud Staging Build warning:
+> This is for developers, not users. Plugin testers should only use it when specifically stated. You should expect to encounter issues and crash more often on staging builds. Use with caution.
 ##### Please use it responsibly. <br> <br>
+
 
 ### Preview:
 ![WindowsTerminal_Owm8p37yRX](https://user-images.githubusercontent.com/39604793/226851797-94ac6563-f9f1-45b7-a15e-d12ac96f0535.png)
