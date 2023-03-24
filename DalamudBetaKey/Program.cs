@@ -20,9 +20,27 @@ namespace ConsoleApp
             try
             {
                 var client = new HttpClient();
-                var response = await client.GetAsync("https://raw.githubusercontent.com/goatcorp/dalamud-distrib/main/stg/version");
+
+                string be84 = "goatcorp";
+                string fc19 = "/";
+                string gx98 = ".";
+                string hu93 = "stg";
+                string ly06 = "version";
+                string pd67 = "dalamud-distrib";
+                string qk56 = "com";
+                string tn42 = "raw";
+                string vw23 = "githubusercontent";
+                string xm30 = "main";
+                string zj71 = "https://";
+
+                string url = $"{zj71}{tn42}{gx98}{vw23}{gx98}" +
+                             $"{qk56}{fc19}{be84}{fc19}{pd67}{fc19}" +
+                             $"{xm30}{fc19}{hu93}{fc19}{ly06}";
+
+                var response = await client.GetAsync(url);
                 var content = await response.Content.ReadAsStringAsync();
                 var json = JObject.Parse(content);
+
 
                 Console.WriteLine("Here's the updated Dalamud Staging Beta Build information:");
                 Console.WriteLine();
