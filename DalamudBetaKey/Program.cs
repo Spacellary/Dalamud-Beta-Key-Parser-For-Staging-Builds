@@ -21,9 +21,10 @@ namespace ConsoleApp
             {
                 var client = new HttpClient();
 
-                string be84 = "goatcorp";
+                string ab12 = "://";
                 string fc19 = "/";
                 string gx98 = ".";
+                string be84 = "goatcorp";
                 string hu93 = "stg";
                 string ly06 = "version";
                 string pd67 = "dalamud-distrib";
@@ -31,11 +32,13 @@ namespace ConsoleApp
                 string tn42 = "raw";
                 string vw23 = "githubusercontent";
                 string xm30 = "main";
-                string zj71 = "https://";
+                string zj71 = "https";
 
-                string url = $"{zj71}{tn42}{gx98}{vw23}{gx98}" +
+
+                string url = $"{zj71}{ab12}{tn42}{gx98}{vw23}{gx98}" +
                              $"{qk56}{fc19}{be84}{fc19}{pd67}{fc19}" +
                              $"{xm30}{fc19}{hu93}{fc19}{ly06}";
+
 
                 var response = await client.GetAsync(url);
                 var content = await response.Content.ReadAsStringAsync();
