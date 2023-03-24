@@ -41,7 +41,6 @@ namespace ConsoleApp
                 var content = await response.Content.ReadAsStringAsync();
                 var json = JObject.Parse(content);
 
-
                 Console.WriteLine("Here's the updated Dalamud Staging Beta Build information:");
                 Console.WriteLine();
 
