@@ -34,11 +34,9 @@ namespace ConsoleApp
                 string xm30 = "main";
                 string zj71 = "https";
 
-
                 string url = $"{zj71}{ab12}{tn42}{gx98}{vw23}{gx98}" +
                              $"{qk56}{fc19}{be84}{fc19}{pd67}{fc19}" +
                              $"{xm30}{fc19}{hu93}{fc19}{ly06}";
-
 
                 var response = await client.GetAsync(url);
                 var content = await response.Content.ReadAsStringAsync();
