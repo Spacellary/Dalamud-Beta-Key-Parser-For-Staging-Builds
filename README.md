@@ -20,7 +20,7 @@ Official documentation on how to use the DalamudBetaKey and access Staging Build
 
 ### How To Use:
 * **Just download the [executable from the latest release](https://github.com/Spacellary/Dalamud-Beta-Key-Parser-For-Staging-Builds/releases/latest) and run it.**
-<br> <br> *It doesn't have to run as with administrative powers. Since this isn't a popular/signed file there will be warnings before you can run it.*
+<br> <br> *It doesn't have to run with administrative powers. Be mindful that since this isn't a popular/signed executable there will be warnings before you can run it.*
 *You can safely ignore these and allow it to run.*
 
 <br>
