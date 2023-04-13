@@ -10,7 +10,7 @@ This simple console app/script will parse the latest Dalamud Staging information
 ###### This application is very simple and rudimentary, it was intended to be used in Windows only.
 
 ##### Dalamud developers stance and warning about Staging Builds:
-> This is for developers, not users. Plugin testers should only use it when specifically stated. You should expect to encounter issues and crash more often on staging builds. Use with caution.
+> This is for developers, not users. Plugin testers should only use it when specifically stated. You should expect to encounter issues and crash more often on staging builds. **Use with caution.**
 ##### Please use it responsibly. <br> <br>
 
 
