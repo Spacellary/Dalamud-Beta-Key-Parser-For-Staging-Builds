@@ -20,8 +20,10 @@ Official documentation on how to use the DalamudBetaKey and access Staging Build
 
 ### How To Use:
 * Just download the [executable from the latest release](link) and run it.
-<br> <br> It doesn't have to run as with administrative powers. Since this isn't a popular/signed file there will be warnings before you can run it.
-You can safely ignore these and allow it to run.
+<br> <br> *It doesn't have to run as with administrative powers. Since this isn't a popular/signed file there will be warnings before you can run it.*
+*You can safely ignore these and allow it to run.*
+
+<br>
 
 * Or you can clone the repository locally and build and run it yourself with `dotnet run` or by forking the repository and building with GitHub actions after checking the code if you'd like.
-<br> <br> This is honestly a very simple and compact piece of code, should be easy to audit for those that want to, and I appreciate that as well.
+<br> <br> *This is honestly a very simple and compact piece of code, should be easy to audit for those that want to, and I appreciate that as well.*
